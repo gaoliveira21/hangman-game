@@ -194,7 +194,6 @@ def hangman_with_hints(secret_word):
     * If the guess is the symbol *, print out all words in wordlist that
       matches the current guessed word.
     '''
-    print(secret_word)
     print("Welcome to the game Hangman!")
     print("I am thinking of a word that is", len(secret_word), "letters long.")
 
